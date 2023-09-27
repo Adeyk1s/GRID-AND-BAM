@@ -8,6 +8,11 @@
   src: url('../font/TTLakes-Bold.ttf');
 }
 
+@font-face {
+  font-family: 'TTLakes medium';
+  src: url('../font/TTLakes-Medium.ttf');
+}
+
 *{
   padding: 0;
   margin: 0;
@@ -18,6 +23,11 @@
 
 a{
   text-decoration: none;
+  color: #1B1C21;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+  font-family: "TTLakes medium"; 
 }
 
 button{
