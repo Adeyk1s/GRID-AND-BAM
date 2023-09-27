@@ -4,96 +4,113 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
     <title>Document</title>
-    
   </head>
   <body>
-    <header>
-      <div class="container">
-        <div class="container__left">
-          <button class="burger-menu img-wrap">
-            <a href="./index.html"><img class="icon" src="img/burger.svg" alt="menu"/></a>
-          </button>
-          <div class="logo">
-            <img src="img/Group.svg" alt="" class="logo__image" />
-          </div>
+    <header class="header">
+
+      <div class="header__logo">
+        <button class="btn">
+          <img class="icon" src="img/burger.svg" alt="menu"/>
+        </button>
+        <div class="header__logo__img">
+          <img src="img/Group.svg" alt="" class="logo__image" />
         </div>
-        <nav class="container__right">
-          <div class="icons-768">
-            <button class="tools img-wrap">
-              <img class="icon" src="img/call.svg" alt="call" />
-            </button>
-            <button class="tools img-wrap">
-              <img class="icon" src="img/chat.svg" alt="chat" />
-            </button>
-            <button class="tools img-wrap">
-              <img class="icon" src="img/checkstatus.svg" alt="checkstatus" />
-            </button>
-          </div>
-          <button class="tools img-wrap">
-            <img class="icon" src="img/profile.svg" alt="profile" />
-          </button>
-          <button class="search img-wrap">
-            <img class="icon" src="img/repair.svg" alt="repair" />
-          </button>
-        </nav>
       </div>
+
+      <nav class="header__links">
+
+        <div class="header__links__desktop">
+          <button class="btn">
+            <img class="icon" src="img/call.svg" alt="call" />
+          </button>
+          <button class="btn">
+            <img class="icon" src="img/chat.svg" alt="chat" />
+          </button>
+          <button class="btn">
+            <img class="icon" src="img/checkstatus.svg" alt="checkstatus" />
+          </button>
+        </div>
+
+        <button class="btn">
+          <img class="icon" src="img/profile.svg" alt="profile" />
+        </button>
+        <button class="btn">
+          <img class="icon" src="img/repair.svg" alt="repair" />
+        </button>
+
+      </nav>
+
     </header>
 
-    <main>
-      <div class="container">
-        <div class="main-top">
-          <h1 class="main-title">Услуги и сервисы</h1>
-          <nav class="main-menu">
-            <a href="#" class="menu-item">
+    <main class="main">
+      
+        <div class="main__links">
+
+          <h1 class="main__links__h1">Услуги и сервисы</h1>
+
+          <nav class="main__links__nav">
+            <a href="#" class="main__links__nav__a">
               Оставить заявку
-              <div class="img-wrap">
+              <button class="btn">
                 <img class="icon" src="img/repair.svg" alt="tools" />
-              </div>
+              </button>
             </a>
-            <a href="#" class="menu-item">
+
+            <a href="#" class="main__links__nav__a">
               Статус ремонта
-              <div class="img-wrap">
+              <button class="btn">
                 <img class="icon" src="img/checkstatus.svg" alt="tools" />
-              </div>
+              </button>
             </a>
           </nav>
+
         </div>
-        <div class="scroll-menu">
-          <a href="#" class="scroll-menu__a">Ремонтируемые устройства</a>
-          <a href="#" class="scroll-menu__a">Дополнительные услуги</a>
-          <a href="#" class="scroll-menu__a">Цены на услуги</a>
-          <a href="#" class="scroll-menu__a">Адреса сервисных центров</a>
-          <a href="#" class="scroll-menu__a">Специальные цены</a>
-          <a href="#" class="scroll-menu__a">Отзывы</a>
+
+        <div class="main__scroll-menu">
+          <a href="#" class="main__scroll-menu__a">Ремонтируемые устройства</a>
+          <a href="#" class="main__scroll-menu__a">Дополнительные услуги</a>
+          <a href="#" class="main__scroll-menu__a">Цены на услуги</a>
+          <a href="#" class="main__scroll-menu__a">Адреса сервисных центров</a>
+          <a href="#" class="main__scroll-menu__a">Специальные цены</a>
+          <a href="#" class="main__scroll-menu__a">Отзывы</a>
         </div>
-        <div class="content">
-          <div class="block-info">
-            <p class="block-info-text">
-              Мы являемся авторизованным сервисным центром по ремонту техники
-              Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с
-              официальной гарантией производителя.
+
+        <div class="main__reviews">
+          <p class="main__reviews__p">
+            Отзывы
+          </p>
+        </div>
+
+        <div class="main__content">
+
+          <div class="main__content__text">
+            <p class="main__content__text__p">
+              Мы являемся авторизованным сервисным центром по ремонту
+              техники Dell. Только у нас вы можете отремонтировать свой ноутбук
+              Dell с официальной гарантией производителя.
             </p>
-            <p class="block-info-text visible-768">
-              Мы успешно работаем с 1992 года и заслужили репутацию надежного
-              партнера
+            <p class="main__content__text__p wh-768">
+              Мы успешно работаем с 1992 года и заслужили репутацию
+              надежного партнера
             </p>
-            <p class="block-info-text visible-1200">
-              что подтверждает большое количество постоянных клиентов. Мы
-              гордимся тем, что к нам обращаются по рекомендациям и, в свою
-              очередь, советуют нас родным и близким.
+            <p class="main__content__text__p wh-1120">
+              что подтверждает большое количество постоянных
+              клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям
+              и, в свою очередь, советуют нас родным и близким.
             </p>
             <button class="expand">
               <img src="img/expand.svg" alt="next" />
               Читать далее
             </button>
           </div>
-          <div class="content__image">
-            <img src="img/_MG_3223.png" alt="content" />
+
+          <div class="main__content__image">
+            <img src="./img/_MG_3223.png" alt="content" />
           </div>
         </div>
-      </div>
+
     </main>
 
   </body>
